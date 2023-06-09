@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opções JS</title>
+    <link rel="icon" type="image/x-icon" href="imagens/favicon/favicon-16x16.png">
+</head>
+<body>
+    <script>
+        let cor;
+
+        if(confirm("Qual cor vc quer colocar no fundo da página?")) {
+            document.body.style.backgroundColor = "green";
+            cor = "verde";
+            alert("Você escolheu a cor " + cor);
+        } else {
+            document.body.style.backgroundColor = "blue";
+            cor = "azul";
+            alert("Você escolheu a cor " + cor);
+        }        
+    </script>
+</body>
+</html>

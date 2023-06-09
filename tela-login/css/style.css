@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+
+    width: 55vw;
+    height: 55vh;
+    padding: 10% 5%;
+    margin: 5% auto;
+
+    border: 1px solid green;
+}
+
+input, button {
+    font-size: 140%;
+    margin-top: 1.5%;
+}
+
+#erroLogin {
+    background-color: rgba(248, 100, 100, 0.911);
+    color: rgb(151, 0, 0);
+    padding: 0.5%;
+    text-align: center;
+}
+
+input {
+    color: green;
+}
+
+button {
+    background-color: green;
+    color: aliceblue;
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 2.5%;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+img {
+    width: 30%;
+    margin-top: 3.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+
+nav > p {
+    text-align: right;
+    color: white;
+    margin-right: 1%;
+    padding: 0.3% 0;
+}
